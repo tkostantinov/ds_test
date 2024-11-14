@@ -1,0 +1,62 @@
+{
+  "C Suit": {
+    "team": "C Suit",
+    "parentTeam": "",
+    "managerName": "John Doe",
+    "businessUnit": "",
+    "teams": {
+      "Dev Team": {
+        "team": "Dev Team",
+        "parentTeam": "C Suit",
+        "managerName": "David Ahrendt",
+        "businessUnit": "development_eu",
+        "teams": {
+          "QA Team": {
+            "team": "QA Team",
+            "parentTeam": "Dev Team",
+            "managerName": "Thomas Hann",
+            "businessUnit": "development_us",
+            "teams": []
+          },
+          "Devops": {
+            "team": "Devops",
+            "parentTeam": "Dev Team",
+            "managerName": "Marcos Marki",
+            "businessUnit": "development_eu",
+            "teams": []
+          }
+        }
+      },
+      "Business team": {
+        "team": "Business team",
+        "parentTeam": "C Suit",
+        "managerName": "Brad Gulter",
+        "businessUnit": "business",
+        "teams": {
+          "Sales": {
+            "team": "Sales",
+            "parentTeam": "Business team",
+            "managerName": "Steph Stephans",
+            "businessUnit": "business",
+            "teams": {
+              "Customer Relations": {
+                "team": "Customer Relations",
+                "parentTeam": "Sales",
+                "managerName": "John Cutleras",
+                "businessUnit": "business",
+                "teams": []
+              }
+            }
+          },
+          "Customer Support": {
+            "team": "Customer Support",
+            "parentTeam": "Business team",
+            "managerName": "Joseph Doeson",
+            "businessUnit": "business",
+            "teams": []
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "C Suit": {
+    "team": "C Suit",
+    "parentTeam": "",
+    "managerName": "John Doe",
+    "businessUnit": "",
+    "teams": {
+      "Business team": {
+        "team": "Business team",
+        "parentTeam": "C Suit",
+        "managerName": "Brad Gulter",
+        "businessUnit": "business",
+        "teams": {
+          "Sales": {
+            "team": "Sales",
+            "parentTeam": "Business team",
+            "managerName": "Steph Stephans",
+            "businessUnit": "business",
+            "teams": []
+          }
+        }
+      }
+    }
+  }
+}
